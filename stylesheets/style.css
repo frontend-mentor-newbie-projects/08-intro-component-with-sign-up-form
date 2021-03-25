@@ -21,7 +21,23 @@
 }
 
 /* Reset browser defaults */
-/* -------------------- */
+html {
+    box-sizing: border-box;
+}
+
+*, ::after, ::before {
+    box-sizing: inherit;
+}
+
+body, p, a, ul, li {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+li {
+    list-style-type: none;
+}
 
 /* Base styles */
 /* -------------------- */
