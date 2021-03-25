@@ -1,0 +1,46 @@
+/* 
+    - Variables
+    - Browser defaults
+    - Base styles
+    - Font styles
+
+    The foregoing remain constant throughout all styles specified for all screens.
+*/
+
+/* Varibables */
+/* -------------------- */
+
+/* Reset browser defaults */
+/* -------------------- */
+
+/* Base styles */
+/* -------------------- */
+
+/* Font styles */
+/* -------------------- */
+
+/*
+    - Small mobile - 320px
+    - Medium mobile - 375px
+    - Large mobile - 425px
+    - Tablet - 768px
+    - Laptop - 1024px
+    - Large laptop: 1440px
+    - TVs + big monitors: 2560px
+
+    The foregoing a default breakpoints to consider when building a fluid website.
+*/
+
+/* Mobile styles -- Starting point */
+/* 12 col | 8 col | 4 col */
+/* -------------------- */
+
+/* Footer styles */
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
