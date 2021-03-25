@@ -8,7 +8,17 @@
 */
 
 /* Varibables */
-/* -------------------- */
+:root {
+    --primary-1: rgb(255, 122, 122);
+    --primary-2: rgb(56, 204, 140);
+
+    --accent-1: rgb(96, 85, 165);
+
+    --neutral-1: rgb(62, 60, 73);
+    --neutral-2: rgb(185, 182, 211);
+
+    --font-stack: Poppins;
+}
 
 /* Reset browser defaults */
 /* -------------------- */
