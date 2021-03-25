@@ -40,7 +40,13 @@ li {
 }
 
 /* Base styles */
-/* -------------------- */
+body {
+    font-size: 16px;
+    font-family: var(--font-stack);
+
+    background-color: var(--primary-1);
+    background-image: url(../images/bg-intro-desktop.png);
+}
 
 /* Font styles */
 /* -------------------- */
