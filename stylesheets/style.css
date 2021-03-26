@@ -183,8 +183,8 @@ main .form-control input {
 .form-control.error small {
 	visibility: visible;
 
-    /* margin-top: 0.4rem;
-    margin-bottom: 1.5rem; */
+    margin-top: 0.4rem;
+    margin-bottom: 1.5rem;
 }
 
 main form #terms-and-conditions {
