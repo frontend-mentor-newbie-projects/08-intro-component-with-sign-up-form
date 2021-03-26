@@ -90,6 +90,167 @@ main p span {
     font-weight: 700;
 }
 
+    /* Form styles */
+main #form-container {
+    background-color: white;
+
+    border-radius: 5px;
+    box-shadow:
+    0 5px 0 rgba(255, 122, 122, 0.8),
+    0 5px 0 rgba(0, 0, 0, 1);
+}
+
+main form {
+    padding: 2rem;
+}
+
+main .form-control {
+    /* margin-top: 1.5rem; */
+    margin-bottom: 0.8rem;
+    padding: 1.5rem auto 1.5rem 1rem;
+
+    position: relative;
+}
+
+main .form-control input {
+    border: 0.1rem solid rgba(185, 182, 211, 0.3);
+    border-radius: 0.5rem;
+
+    display: block;
+
+    width: 100%;
+    
+    font-family: inherit;
+    font-size: 0.9rem;
+    padding: 1.5rem;
+}
+
+.form-control input:focus,
+.form-control input:hover,
+.form-control input:active {
+    outline: 0;
+    border-color: var(--primary-1);
+}
+
+.form-control input::placeholder {
+    opacity: 0.9;
+
+    color: var(--neutral-1);
+    font-weight: 700;
+}
+
+.form-control.success input {
+    border-color: #2ecc71;
+}
+
+.form-control.error input {
+    border-color: #e74c3c;
+}
+
+.form-control i {
+    visibility: hidden;
+
+    font-size: 2rem;
+
+    position: absolute;
+
+    top: 1.2rem;
+    right: 2rem;
+}
+
+.form-control.success i.fa-check-circle {
+    visibility: visible;
+    color: #2ecc71;
+}
+
+.form-control.error i.fa-exclamation-circle {
+    visibility: visible;
+    color: #e74c3c;
+}
+
+.form-control small {
+    visibility: hidden;
+
+    display: block;
+	color: var(--primary-1);
+    font-weight: 700;
+    font-style: italic;
+    font-size: 0.8rem;
+
+    text-align: right;
+}
+
+.form-control.error small {
+	visibility: visible;
+
+    /* margin-top: 0.4rem;
+    margin-bottom: 1.5rem; */
+}
+
+main form #terms-and-conditions {
+    display: block;
+
+    color: var(--neutral-2);
+    text-align: center;
+
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+main form a {
+    color: var(--primary-1);
+    font-weight: 700;
+}
+
+main #submit {
+    color: white;
+    background-color: var(--primary-2);
+
+    border: none;
+    border-radius: 0.2rem;
+
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 700;
+    letter-spacing: 0.2rem;
+
+    height: 3.5rem;
+    width: 100%;
+
+    box-shadow:
+    0 5px 0 rgba(56, 204, 140, 0.8),
+    0 5px 0 rgba(0, 0, 0, 1);
+}
+
+/* 
+    Order of pseudo-classes for buttons and links:
+    - :link
+    - :visited
+    - :focus
+    - :hover
+    - :active
+*/
+
+main #submit:focus {
+    outline: none;
+    cursor: pointer;
+}
+
+main #submit:hover {
+    cursor: pointer;
+}
+
+main #submit:active {
+    cursor: pointer;
+
+    transform: scale(0.98);
+
+    box-shadow:
+    0 5px 0 rgba(56, 204, 140, 0.7),
+    0 5px 0 rgba(0, 0, 0, 1);
+}
+
 /*
     - Small mobile - 320px
     - Medium mobile - 375px
