@@ -68,6 +68,28 @@ header p {
     margin: 2.5rem;
 }
 
+/* Main styles */
+main p {
+    color: white;
+    text-align: center;
+    line-height: 2rem;
+
+    background-color: var(--accent-1);
+    box-shadow:
+    0 5px 0 rgba(96, 85, 165, 0.8),
+    0 5px 0 rgba(0, 0, 0, 1);
+
+    border-radius: 0.3rem;
+    
+    margin-top: 4.5rem;
+    margin-bottom: 1.5rem;
+    padding: 1.5rem 3.5rem;
+}
+
+main p span {
+    font-weight: 700;
+}
+
 /*
     - Small mobile - 320px
     - Medium mobile - 375px
