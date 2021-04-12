@@ -265,7 +265,32 @@ main #submit:active {
 
 /* Mobile styles -- Starting point */
 /* 12 col | 8 col | 4 col */
-/* -------------------- */
+.grid {
+    display: flex;
+    flex-flow: column nowrap;
+
+    overflow: auto;
+}
+
+body {
+    height: 1200px;
+
+    display: flex;
+    flex-direction: column nowrap;
+	justify-content: center;
+    align-items: center;
+
+    padding: 5rem 2rem;
+}
+
+#container {
+    width: 80%;
+
+    min-width: 310px;
+    max-width: 350px;
+
+    margin: 0 auto;
+}
 
 /* Footer styles */
 .attribution {
